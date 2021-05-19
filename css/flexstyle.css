@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Halvetica', sans-serif, serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.flex_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 69px;
+    margin-left: 10px;
+    border-bottom: 1px solid seashell;
+}
+
+.flex_container img {
+    height: 50px;
+}
+
+.flex_container a {
+    color: gray;
+}
